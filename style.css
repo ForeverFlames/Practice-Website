@@ -1,0 +1,82 @@
+body {
+    li:hover {
+    color: darkorchid;
+    padding: 40px;
+    background-color: black;
+    border: black;
+}
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: mediumpurple;
+    accent-color: darkorchid;
+    display: block;
+    a[href*="frhsd.com"] {
+        color: yellow;
+
+    }
+}
+div li {
+    list-style: none;
+    background-color: darkorchid;
+}
+ol>li{
+    color: deeppink;
+}
+li + li {
+    border: dotted 5px;
+}
+p~div {
+    color: thistle;
+}
+p+div {
+    color: royalblue;
+}
+#funky {
+    color: gold;
+}
+#pod {
+    display: flex;
+    justify-content: space-evenly;
+}
+#SkinnyCat {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    gap: 12px;
+    img {
+        grid-column: Span 3;
+        grid-row: Span 3;
+        width: 100%;
+        height: 100%;
+        }
+    p {
+        grid-column: Span 2;
+        grid-row: Span 2;
+    }
+    a {
+        grid-column: Span 1;
+        grid-row: Span 1;
+    }
+}
+#UberCat {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    gap: 12px;
+    img {
+        grid-column: Span 3;
+        grid-row: Span 3;
+        width: 100%;
+        height: 100%;
+    }
+    p {
+        grid-column: Span 2;
+        grid-row: Span 2;
+    }
+    a {
+        grid-column: Span 1;
+        grid-row: Span 1;
+    }
+}
