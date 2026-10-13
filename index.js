@@ -22,7 +22,6 @@ function incrementSession() {
 function loading() {
     let ls = localStorage.getItem("counter_ls") || "0";
     let ss = sessionStorage.getItem("counter_ss") || "0";
-
     document.getElementById("btn-local").textContent = ls;
     document.getElementById("btn-session").textContent = ss;
 }
